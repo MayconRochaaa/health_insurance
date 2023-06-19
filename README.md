@@ -23,7 +23,7 @@
 
 ## 1.2 - **Objetivos**
 
-<p align="justify">Como cientista de dados foi nos dado a tarefa de prever os potenciais clientes com base nos dados disponíveis da empresa sobre seus clientes. Além disso, para que o time de Marketing tenha fácil acesso à esses clientes, foi solicitado que esses resultados possam ser consultados em uma tabela no Google Sheets .</p>
+<p align="justify">Como cientista de dados foi nos dado a tarefa de desenvolver um modelo de propensão de compra para prever quais clientes que já possuem um plano de saúde da mesma seguradora têm maior probabilidade de adquirir um seguro de carro. O objetivo é fornecer informações ao time de Marketing, permitindo que eles acessem facilmente esses clientes e desenvolvam uma estratégia de vendas eficaz. Além disso, foi solicitado que os resultados sejam disponibilizados em uma tabela no Google Sheets para facilitar o acesso e análise dos dados.</p>
 
 ## 1.3 - **Visão geral dos dados**
 
