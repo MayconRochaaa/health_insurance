@@ -87,3 +87,5 @@ target/
 
 # Mypy cache
 .mypy_cache/
+notebooks/projeto_teste.ipynb
+

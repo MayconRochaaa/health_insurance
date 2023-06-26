@@ -27,7 +27,7 @@
 
 ## 1.3 - **Visão geral dos dados**
 
-<p align="justify"> Os dados foram obtidos através da plataforma <a href="https://www.kaggle.com/datasets/anmolkumar/health-insurance-cross-sell-predictions">Kaggle</a>. Neles temos informações gerais sobre os clientes que já adquiriram o seguro de saúde oferecido pela seguradora. O dataset original contém as seguintes informações:</p>
+<p align="justify"> Os dados foram obtidos através da plataforma <a href="https://www.kaggle.com/datasets/anmolkumar/health-insurance-cross-sell-prediction">Kaggle</a>. Neles temos informações gerais sobre os clientes que já adquiriram o seguro de saúde oferecido pela seguradora. O dataset original contém as seguintes informações:</p>
 
 <details><summary><strong> Descrição dos dados disponibilizados</strong> </summary>
 
