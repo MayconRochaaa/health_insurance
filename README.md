@@ -8,7 +8,7 @@
 <p align="justify"><i>Esse é um problema de negócio fictício, porém a empresa e os dados são reais assim como a solução do problema também é feita seguindo os passos que um projeto real seguiria.</i></p>
 
 <p align="justify"><i>Este README apresenta um apanhado dos métodos utilizados e dos principais resultados obtidos. Você pode obter mais detalhes visitando o 
-<a href="">Jupyter Notebook</a> do projeto.</i></p>
+<a href="https://github.com/MayconRochaaa/health_insurance/blob/main/notebooks/projeto.ipynb">Jupyter Notebook</a> do projeto.</i></p>
 
 # 1.0 - **Problema de negócio**
 
