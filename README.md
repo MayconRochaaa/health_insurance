@@ -1,4 +1,4 @@
-<h1 align='center'>  HEALTH INSURANCE CROSS SELL PREDICTION <br> [projeto em andamento] </h1>
+<h1 align='center'>  PROJETO DE CLASSIFICAÇÃO DE PROPENSÃO DE COMPRA DE UM SEGURO DE CARRO VIA VENDA CRUZADA<br> [projeto em andamento] </h1>
 
 <div align=center>
 
