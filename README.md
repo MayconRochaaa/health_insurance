@@ -1,4 +1,4 @@
-<h1 align='center'>  PROJETO DE CLASSIFICAÇÃO DE PROPENSÃO DE COMPRA DE UM SEGURO DE CARRO VIA VENDA CRUZADA<br> [projeto em andamento] </h1>
+<h1 align='center'>  PROJETO DE CLASSIFICAÇÃO DE PROPENSÃO DE COMPRA DE UM SEGURO DE CARRO VIA VENDA CRUZADA<br> </h1>
 
 <div align=center>
 
@@ -174,7 +174,7 @@ Gain curve             |  Lift Curve
 
 ### 5.1.1 Qual a porcentagem de clientes interessados em adquirir um seguro de automóvel, o time de vendas conseguirá contatar fazendo 20.000 ligações?
 
-Analisando o gráfico abaixo notamos que ao contatar 20000 clientes da base (cerca de 25%) conseguimos atingir cerca de 70% dos interessados (intersecção da reta pontilhada com a curva azul). Quando comparado com o caso onde a ordenação é aleatória (Figura abaixo) notamos que nosso modelo é cerca de 2,75 vezes melhor.
+<p align="justify">Analisando o gráfico abaixo notamos que ao contatar 20000 clientes da base (cerca de 25%) conseguimos atingir cerca de 70% dos interessados (intersecção da reta pontilhada com a curva azul). Quando comparado com o caso onde a ordenação é aleatória (Figura abaixo) notamos que nosso modelo é cerca de 2,75 vezes melhor.</p>
 
 Gain curve at 20.000             |  Lift Curve at 20.000 
 :-------------------------:|:-------------------------:
@@ -182,7 +182,7 @@ Gain curve at 20.000             |  Lift Curve at 20.000
 
 ### 5.1.2 Caso a capacidade do time de vendas aumente para 40.000 ligações, qual a porcentagem de clientes interessados em adquirir um seguro de automóvel o time de vendas conseguirá contatar?
 
-Quando a capacidade de ligações passa a ser de 40000, ao analisar a figura acima, podemos ver que conseguimos atingir quase 100% dos interessados, cerca de duas vezes melhor que o modelo aleatório, como mostrado na imagem abaixo.
+<p align="justify">Quando a capacidade de ligações passa a ser de 40000, ao analisar a figura acima, podemos ver que conseguimos atingir quase 100% dos interessados, cerca de duas vezes melhor que o modelo aleatório, como mostrado na imagem abaixo.</p>
 
 Gain curve             |  Lift Curve
 :-------------------------:|:-------------------------:
@@ -190,32 +190,32 @@ Gain curve             |  Lift Curve
 
 ### 5.1.3 Quantas ligações o time de vendas precisa fazer para contatar 80% dos clientes interessados em adquirir um seguro de automóvel?
 
-Analisando as imagens acima vemos que é necessário atingir cerca de 30% da base para atingir 80% dos interessados.
+<p align="justify">Analisando as imagens acima vemos que é necessário atingir cerca de 30% da base para atingir 80% dos interessados.</p>
 
 ## 5.2 Retorno finaceiro
 
-Considerando um cenário em que a base de clientes a ser contatada contabiliza 76222 clientes, é possível estimar o retorno financeiro que a empresa terá ao utilizar lista rankeada para entrar em contato com os clientes. Para isso assumimos as seguintes premissas:
+<p align="justify">Considerando um cenário em que a base de clientes a ser contatada contabiliza 76222 clientes, é possível estimar o retorno financeiro que a empresa terá ao utilizar lista rankeada para entrar em contato com os clientes. Para isso assumimos as seguintes premissas:</p>
 
-O valor anual médio do seguro de carro é de 36000. Além disso assumiremos que as pessoas que responderam estar interessadas no seguro irão de fato adquiri-lo. Portanto assumindo também que o time de negócios possuem apenas 20000 ligações.
+<p align="justify">O valor anual médio do seguro de carro é de 36000. Além disso assumiremos que as pessoas que responderam estar interessadas no seguro irão de fato adquiri-lo. Portanto assumindo também que o time de negócios possuem apenas 20000 ligações.</p>
 
-Desse modo, a receita bruta esperada através dos seguros vendidos aos clientes contatados utilizando a lista rankeada é de: $518.400.000,00. Enquanto que  utilizando a random list é de: $187.200.000,00 (mais detalhes das contas estão no notebook). Isso significa que o modelo é cerca de 2,8 vezes melhor do que ao ordenar a lista aleatoriamente, ou seja, foram economizados cerca de 331.200.000 reais ao utilizar o modelo.
+<p align="justify">Desse modo, a receita bruta esperada através dos seguros vendidos aos clientes contatados utilizando a lista rankeada é de: $518.400.000,00. Enquanto que  utilizando a random list é de: $187.200.000,00 (mais detalhes das contas estão no notebook). Isso significa que o modelo é cerca de 2,8 vezes melhor do que ao ordenar a lista aleatoriamente, ou seja, foram economizados cerca de 331.200.000 reais ao utilizar o modelo.</p>
 
 # 6.0 - **Produto Final**
 
-Para disponibilizar esses resultados de forma prática e remota foi criado a API-Healin utilizando a biblioteca Flask e feito o deploy na plataforma Render. Através do Google App Scripts acessamos essa API e criamos um botão no Google Sheets que ordena tabelas automaticamente com base no modelo treinado.
+<p align="justify">Para disponibilizar esses resultados de forma prática e remota foi criado a API-Healin utilizando a biblioteca Flask e feito o deploy na plataforma Render. Através do Google App Scripts acessamos essa API e criamos um botão no Google Sheets que ordena tabelas automaticamente com base no modelo treinado.</p>
 
 # 7.0 - **Conclusões**
 
-O primeiro ciclo do CRISP-DS foi concluído com sucesso, passamos por todas etapas essências de um projeto real de ciência de dados. Obtemos insights preciosos sobre os clientes interessados em adquirir o seguro durante o processo de EDA, que possibilitou definir um conjunto de features que entrega uma performance satisfatória ao utilizar o modelo XGBoost, possibilitando uma ordenação da lista de clientes com potencial interesse no seguro de carro, sendo cerca de 2,8 vezes melhor que uma lista não ordenada. Esse resultado se traduz para o mundo de negócios como um potencial de economizar algo em torno de 331.200.000 reais ao utilizar o modelo para ordenação dos clientes.
+<p align="justify">O primeiro ciclo do CRISP-DS foi concluído com sucesso, passamos por todas etapas essências de um projeto real de ciência de dados. Obtemos insights preciosos sobre os clientes interessados em adquirir o seguro durante o processo de EDA, que possibilitou definir um conjunto de features que entrega uma performance satisfatória ao utilizar o modelo XGBoost, possibilitando uma ordenação da lista de clientes com potencial interesse no seguro de carro, sendo cerca de 2,8 vezes melhor que uma lista não ordenada. Esse resultado se traduz para o mundo de negócios como um potencial de economizar algo em torno de 331.200.000 reais ao utilizar o modelo para ordenação dos clientes.</p>
 
-O modelo foi colocado em produção e desenvolvido uma funcionalidade no Google Sheets que possibilita a ordenação de tabelas de clientes de forma prática e facilitada.
+<p align="justify">O modelo foi colocado em produção e desenvolvido uma funcionalidade no Google Sheets que possibilita a ordenação de tabelas de clientes de forma prática e facilitada.</p>
 
 # 8.0 - **Próximos passos**
 
-A performance do modelo ainda possuí margem para ser aprimorada mais. Ao iniciar um novo ciclo do CRISP-DS podemos abordar as seguintes estratégias:
+<p align="justify">A performance do modelo ainda possuí margem para ser aprimorada mais. Ao iniciar um novo ciclo do CRISP-DS podemos abordar as seguintes estratégias:</p>
 
-Elaborar mais hipóteses sobre o negócio para gerar mais Features que podem ser relevantes para descrever o problema;
+<p align="justify">Elaborar mais hipóteses sobre o negócio para gerar mais Features que podem ser relevantes para descrever o problema;</p>
 
-Testar diferentes algoritmos de Machine Learning, inclusive criar Stacking de modelos;
+<p align="justify">Testar diferentes algoritmos de Machine Learning, inclusive criar Stacking de modelos;</p>
 
 # Contato: [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mayconrocha14/)  [![Gmail](https://img.shields.io/badge/-Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:mayconrochads@gmail.com)  [![Discord](https://img.shields.io/badge/-Discord-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/users/Marimbondo#7836)
